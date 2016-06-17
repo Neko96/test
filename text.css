@@ -1,166 +1,138 @@
-body
-{
+body{
 	margin:0;
 	padding:0;
 	background:white;
 	font-family:'MS Serif','メイリオ';
 }
 
-article.doc_body
-{
+article.doc_body{
 	width:1300px;
 	margin:auto;
 }
 
-header
-{
+header{
 	width:100%;
 	font-family:'Arial';
 }
 
-nav
-{
+nav{
 	width:300px;
 	float:left;
 }
 
-ul span
-{
+ul span{
 	margin-left:-20px;
 	padding-bottom:10px;
 }
 
-li
-{
+li{
 	margin-bottom:10px;
 }
 
-a
-{
+a{
 	text-decoration:none;
 }
 
-a:hover
-{
+a:hover{
 	text-decoration:underline;
 }
 
-article.sub_doc_body
-{
+article.sub_doc_body{
 	width:1000px;
 	float:left;
 }
 
-section
-{
+section{
 	padding:10px 23px;
 	text-align:justify;
 }
 
-p
-{
+p{
 	padding:0 18px;
 }
 
-p.text_right
-{
+p.text_right{
 	text-align:right;
 	font-size:12px;
 }
 
-p.float_left
-{
+p.float_left{
 	float:left;
 }
 
-p.float_right
-{
+p.float_right{
 	float:right;
 }
 
-aside
-{
+aside{
 	width:870px;
 	margin:auto;
 	margin-bottom:8px;
 	padding:15px 0;
 }
 
-aside.annotation
-{
+aside.annotation{
 	border:solid #aaaaaa 2px;
 }
 
-aside h3
-{
+aside h3{
 	text-align:center;
 }
 
-code
-{
+code{
 	font-family:"メイリオ";
 	color:#3cb371;
 	font-size:14px;
 	background-color:#ffffff;
 }
 
-h2,h3,h4
-{
+h2,h3,h4{
 	/*font-family:'Segoe UI Symbol';*/
 	color:#00bfff;
 }
 
-dd
-{
+dd{
 	padding-left:20px;
 }
 
-table
-{
+table{
 	width:900px;
 	margin:auto;
 	margin-bottom:16px;
 }
 
-caption
-{
+caption{
 	text-align:center;
 }
 
-thead
-{
+thead{
 	background:#cccccc;
 }
 
-tbody
-{
+tbody{
 	border-bottom:solid 2px #dddddd;
 }
 
-th
-{
+th{
 	height:35px;
 	width:160px;
 	font-size:16px;
 }
 
-td
-{
+td{
 	height:34px;
 	width:160px;
 	font-size:13px;
 }
 
-figure
-{
+figure{
 	width:900px;
 	margin:auto;
 	margin-bottom:10px;
   	text-align:center;
 }
 
-footer
-{
+footer{
 	clear:both;
 	position:relative;
 	bottom:0;
